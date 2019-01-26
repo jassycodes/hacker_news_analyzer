@@ -7,7 +7,7 @@ import html
 
 app = Flask(__name__)
 
-@app.route('/sentiment_post')
+@app.route('/')
 def sentiment():
 	#return "sentiment Post"
 	#make a request to get data from reddit:
